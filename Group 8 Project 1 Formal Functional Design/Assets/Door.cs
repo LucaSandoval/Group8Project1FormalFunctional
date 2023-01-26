@@ -28,7 +28,7 @@ public class Door : Interactable
         }
     }
 
-    private void Unlock()
+    public void Unlock()
     {
         anim.SetBool("opened", true);
     }

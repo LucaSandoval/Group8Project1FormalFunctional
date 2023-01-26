@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8441060552748237529}
   - component: {fileID: 4219668721834293088}
   - component: {fileID: 5938135206371768284}
+  - component: {fileID: 7509790270284783074}
   m_Layer: 0
   m_Name: 'Button_1 '
   m_TagString: Untagged
@@ -100,6 +101,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &7509790270284783074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933549883408449347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4feb0ad22b898ce4da816a928726fb07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 5
+  playerInRange: 0
 --- !u!1 &4796579787949647919
 GameObject:
   m_ObjectHideFlags: 0
